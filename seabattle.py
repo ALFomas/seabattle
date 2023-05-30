@@ -29,13 +29,6 @@ class BoardWrongShipException(BoardException):
     pass
 
 
-class BoardChoiseException(BoardException):
-    """ re-shot exceptions"""
-
-    def __str__(self) -> str:
-        return "Введите 1 либо 2!"
-
-
 class Point:
     """ Class Points """
 
