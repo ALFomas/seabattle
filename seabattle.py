@@ -215,6 +215,8 @@ class Game:
         coa = self.random_board()
         cob = self.random_board()
         co.hid = True
+        coa.hid = True
+        cob.hid = True
         self.ai = AI(co, pl)
         self.us = User(pl, co)
         self.aia = AI(coa, cob)
